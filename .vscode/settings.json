@@ -25,6 +25,7 @@
         "internal_bit": "cpp",
         "atomic": "cpp",
         "cstdint": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "compare": "cpp"
     }
 }
