@@ -94,6 +94,19 @@
         "iterator": "cpp",
         "numeric": "cpp",
         "utility": "cpp",
-        "ranges": "cpp"
-    }
+        "ranges": "cpp",
+        "print": "cpp",
+        "chrono": "cpp",
+        "format": "cpp",
+        "generator": "cpp",
+        "memory_resource": "cpp",
+        "spanstream": "cpp",
+        "stacktrace": "cpp",
+        "stdfloat": "cpp",
+        "stop_token": "cpp",
+        "syncstream": "cpp",
+        "system_error": "cpp",
+        "text_encoding": "cpp",
+        "thread": "cpp"
+    },
 }

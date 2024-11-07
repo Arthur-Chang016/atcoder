@@ -40,10 +40,10 @@ struct per_arr {
 };
 
 template<typename T>
-struct segtree {
+struct per_segtree {
     per_arr<T> tree;
     
-    segtree(int n, T init) : tree(n * 2 + 5, -1, init) {}
+    per_segtree(int n, T init) : tree(n * 2 + 5, -1, init) {}
     
     T q(int l, int r, int time) {
         const int n = tree.arr.size() / 2;
@@ -82,7 +82,7 @@ int32_t main() {
     // cout << arr.at(0, 10) << endl;
     
     
-    segtree<int> seg(n, 0);
+    per_segtree<int> seg(n, 0);
     
     // seg.mod(0, 1, 0);
     // seg.mod(1, 1, 0);
